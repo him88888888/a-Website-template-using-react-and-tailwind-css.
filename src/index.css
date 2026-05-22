@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+
+/* Hide scrollbar by default */
+#right::-webkit-scrollbar{
+    width: 0px;
+}
+
+/* Show scrollbar on hover */
+#right:hover::-webkit-scrollbar{
+    width: 8px;
+}
+
+/* Track */
+#right::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+/* Thumb */
+#right::-webkit-scrollbar-thumb{
+    background: #1f2937; /* gray-800 */
+    border-radius: 999px;
+}
